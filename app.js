@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-    const apiKey = "01efbefe1745bb08225356d0eeed6bab";
+    const apiKey = "NiceTryHaHa";
     const units = "metric";
     const cityName = req.body.cityName.replace(/\s*/g,"");
     console.log(cityName);
